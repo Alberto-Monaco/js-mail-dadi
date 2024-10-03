@@ -7,9 +7,9 @@ const pc = Math.round(Math.random() * 5) + 1
 alert(`il computer tira il dato ed esce il numero ${pc}`)
 
 if (user > pc) {
-	alert('vince giocatore')
+	alert('vince il giocatore')
 } else if (user < pc) {
-	alert('vince computer')
+	alert('vince il computer')
 } else {
-	alert('sono pari')
+	alert('non vince nessuno, sono usciti due numeri uguali')
 }
