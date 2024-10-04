@@ -12,7 +12,7 @@ let list_mail = [
 	'maria@yahoo.com'
 ]
 
-let mail_user = prompt('Quale è la tua email')
+let mail_user = prompt('Quale è la tua email?')
 
 if (list_mail.includes(mail_user)) {
 	alert('puoi passare')
